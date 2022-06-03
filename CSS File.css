@@ -1,1 +1,23 @@
-
+.resume{
+    font-variant: small-caps;
+    color: blue;
+}
+.addinfo{
+    font-variant: small-caps;
+    color: darkblue;
+}
+.skill{
+    font-variant: small-caps;
+}
+.details{
+    font-variant: small-caps;
+}
+.education{
+    font-variant: small-caps;
+}
+.portfolio_links{
+    font-variant: small-caps;
+}
+.lang{
+    font-variant: small-caps;
+}
