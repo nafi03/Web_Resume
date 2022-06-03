@@ -6,6 +6,8 @@
 	<meta charset="UTF-8">
 	<title>Nafi's Resumé</title>
 	<link rel="icon" type="png" href="webicon.png">
+	<link rel="stylesheet" href="css part.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body bgcolor="#00FFFF">
 	<main>
@@ -22,17 +24,16 @@
 				<td width="220p"></td><td><img src="mypic.jpeg" alt="Nafi's Picture" width="118p" height="117p" border="2"></td>
 			</tr>
 		</table>
-		<h1>Resumé: <em>Mr.Nafi Azim Siddique</em></h1>
+		<h1 class="resume"><u>Resumé:</u> <em>Mr.Nafi Azim Siddique</em></h1>
 	</main>
 	
 	
 	<aside style=" float: right; background-color:#808080; padding: 11px; color:white;">
 		<table>
-			<h2>Additional Information</h2>
+			<h2 class="addinfo"><u>Additional Information</u></h2>
 			<tr>
 				<ul>
-					<li><h3>Achievments
-						</h3></li>
+					<li><h3><u>Achievments</u></h3></li>
 					<ul>
 						<li><abbr title="Pt Deendayal Upadhyaya National Institute for Persons with Physical Disabilites">PDUNIPPD</abbr>
 							Taken on Jun 2019, <abbr title="Physics, Chemistry, Maths, English">PCME</abbr> RANK-01
@@ -61,7 +62,7 @@
 						</ul>
 				</ul>
 				<ul>
-					<li><h3>Job Experience and/or Internships
+					<li><h3><u>Job Experience and/or Internships</u>
 						</h3></li>
 					<ul>
 						<li>Social Media Marketing Intern-<a href="https://www.commondove.com/">Commondove.</a>
@@ -80,7 +81,7 @@
 	<table>
 		<tr>
 			<td><table border="2" height="200p" style="background-color:#ADD8E6;">
-				<th colspan="2"><ul><li><h2>Personal Details</h2></li></ul></th>
+				<th colspan="2"><ul><li><h2 class="details"><u>Personal Details</u></h2></li></ul></th>
 				<tr>
 					<td><b>Email address:</b></td><td>nasXXXX2001@gmail.com</td>
 				</tr>
@@ -94,49 +95,58 @@
 			</td>
 			
 			<td><table border="2" height="200px" style="background-color:#ADD8E6;">
-				<th colspan="2"><ul><li><h2>Educational Details</h2></li></ul></th>
+				<th colspan="2"><ul><li><h2 class="education"><u>Educational Details</u></h2></li></ul></th>
 				<tr>
-					<td><b>Secondary Education:</b></td><td>08.60/10, (2016-2017)</td>
+					<td><b>Secondary Education:</b></td>
+                    <td>08.60/10, (2016-2017)</td>
 				</tr>
 				<tr>
-					<td><b>Senior Secondary Education:</b></td><td>79%, (2018-2019)</td>
+					<td><b>Senior Secondary Education:</b></td>
+                    <td>79%, (2018-2019)</td>
 				</tr>
 				<tr>
-					<td><b>Current educational status:</b></td><td>B.Tech, CSE(2019-2023)</td>
+					<td><b>Current educational status:</b></td>
+                    <td>B.Tech, CSE(2019-2023)</td>
 				</tr>
 			</table>
 			</td>
 		</tr>
 	</table>
 	
-	<th><ul><li><h2>Skills</h2></li></ul></th>
-		<ul>
-			<tr>
-				<ul><li><td><em>HTML5</em></td></li></ul>
-			</tr>
-			<tr>
-				<ul><li><td><em>C-programming language</em></td></li></ul>
-			</tr>
-			<tr>
-				<ul><li><td><em>Python programming language</em></td></li></ul>
-			</tr>
-			<tr>
-				<ul><li><td><em>Git/Github</em></td></li></ul>
-			</tr>
-			<tr>
-				<ul><li><td><em>MS-Excel</em></td></li></ul>
-			</tr>
-			<tr>
-				<ul><li><td><em>MS-Word</em></td></li></ul>
-			</tr>
-			<tr>
-				<ul><li><td><em>MS-Powerpoint</em></td></li></ul>
-			</tr>
-		</ul>
+    
+        <th><ul><li><h2 class="skill"><u>Skills</u></h2></li></ul></th>
+        <details>
+            <ul>
+                <tr>
+                    <ul><li><td><em>HTML5</em></td></li></ul>
+                </tr>
+                <tr>
+                    <ul><li><td><em>CSS</em></td></li></ul>
+                </tr>
+                <tr>
+                    <ul><li><td><em>C-programming language</em></td></li></ul>
+                </tr>
+                <tr>
+                    <ul><li><td><em>Python programming language</em></td></li></ul>
+                </tr>
+                <tr>
+                    <ul><li><td><em>Git/Github</em></td></li></ul>
+                </tr>
+                <tr>
+                    <ul><li><td><em>MS-Excel</em></td></li></ul>
+                </tr>
+                <tr>
+                    <ul><li><td><em>MS-Word</em></td></li></ul>
+                </tr>
+                <tr>
+                    <ul><li><td><em>MS-Powerpoint</em></td></li></ul>
+                </tr>
+            </ul>
+        </details>
 	</table>
 	<br>
 	<hr>
-	<ul><li><h2>Other Portfolio Links</h2></li></ul>
+	<ul><li><h2 class="portfolio_links"><u>Other Portfolio Links</u></h2></li></ul>
 			<ul>
 			    <table>
 				    <tr>
@@ -149,7 +159,7 @@
 			    </table>
 			</ul>
 			<hr>
-	<ul><li><h2>Languages</h2></li></ul>
+	<ul><li><h2 class="lang"><u>Languages</u></h2></li></ul>
 		<ul>
 			<ul><li><em>English</em></li></ul>
 			<ul><li><em>Hindi</em></li></ul>
